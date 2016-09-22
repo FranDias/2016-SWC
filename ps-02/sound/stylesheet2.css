@@ -1,0 +1,13 @@
+body {
+  width: 600px;
+  margin: 0 auto;
+  background-color: #FFFFFF;
+  padding: 250px 20px 20px 20px;
+}
+
+h1 {
+  font-family: 'Lato', sans-serif;
+  color: #E5E5E5;
+  font-size: 1vw;
+  line-height: 100%;
+}

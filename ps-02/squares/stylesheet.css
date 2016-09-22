@@ -1,0 +1,12 @@
+div {
+    float:left;
+    width: 30%;
+    padding-bottom: 30%;
+    margin:1%;
+    background-color: #1E1E1E;
+}
+
+body {
+  background-color: black;
+  padding: 150px 20px 20px 20px;
+}
