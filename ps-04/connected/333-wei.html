@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>333</title>
+    <style media="screen">
+
+  body {
+    font-family: 'Bree Serif', serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    top: 0px;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+  }
+  canvas {
+    border: 1px solid hsl(0,10%,90%);
+    width: 80%;
+    height: 80%;
+  }
+#title{
+  font-size: 20px;
+  font-family: 'Bree Serif', serif;
+  font-weight: bold;
+  color:black;
+  display: flex;
+  align-items:baseline;
+  justify-content: center;
+    position: fixed;
+    top: 10px;
+    bottom: 200px;
+    left: 50px;
+    right: 50px;
+
+
+}
+
+    </style>
+  </head>
+
+  <body>
+    <canvas id="canvas" width="1500" height="1500"></canvas>
+  </body>
+
+  <script type="text/javascript">
+  // var ctx = document.querySelector("canvas").getContext("2d");
+  // var drawingPad = canvas.getContext('2d');
+
+//   ctx.beginPath();
+//   for (var y = 100; y <= 500; y += 100) {
+//     ctx.moveTo(0, 100);
+//     ctx.lineTo(100, 100);
+//     ctx.moveTo(0, 200);
+//     ctx.lineTo(100, 200);
+//
+// ctx.stroke();
+// }
+
+
+var canvas = document.getElementById('canvas');
+var drawingPad = canvas.getContext("2d");
+var y = 10;
+var x = 100;
+
+
+while(y < 330){
+    drawingPad.moveTo(x, y);
+    drawingPad.lineTo(x + 100, y);
+    y = y + 10;
+    drawingPad.strokeStyle = "gray";
+   drawingPad.stroke();
+    drawingPad.beginPath();
+}
+
+
+
+  </script>
+
+</html>
