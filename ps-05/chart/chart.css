@@ -1,0 +1,17 @@
+
+  body {
+    font-family: 'helvetica', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    top: 0px;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+  }
+  canvas {
+    border: 1px solid hsl(0,10%,90%);
+    width: auto;
+    height: 50%;
+  }
