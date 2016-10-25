@@ -42,16 +42,16 @@ kateterrado.drawGrid = function(ctx) {
 
 
 kateterrado.drawTop = function(ctx) {
-  drawImage('https://github.com/kateterrado/2016-SWC/ps-06/head.jpg', ctx, 0, 0);
+  drawImage('https://kateterrado.github.io/2016-SWC/ps-06/head.jpg', ctx, 0, 0);
 };
 
 kateterrado.drawMiddle = function(ctx) {
-  drawImage('https://github.com/kateterrado/2016-SWC/ps-06/arms.jpg', ctx, 0, 240);
+  drawImage('https://kateterrado.github.io/2016-SWC/ps-06/arms.jpg', ctx, 0, 240);
   // draw the rest of the body...
 };
 
 kateterrado.drawBottom = function(ctx) {
-  drawImage('https://github.com/kateterrado/2016-SWC/ps-06/legs.jpg', ctx, 0, 480);
+  drawImage('https://kateterrado.github.io/2016-SWC/ps-06/legs.jpg', ctx, 0, 480);
 };
 
 kateterrado.drawCorpse = function(ctx) {
