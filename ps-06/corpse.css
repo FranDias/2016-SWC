@@ -1,0 +1,27 @@
+{
+   box-sizing: border-box;
+}
+
+body {
+   margin: 4em;
+   font-family: 'Open Sans', sans-serif;
+   font-size: 12pt;
+   color: hsl(20,10%,80%);
+   background-color: #E5E5E5;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+  }
+
+#corpse {
+   background-color: hsl(0,0%,90%);
+  }
+
+  .horizontal-bar {
+     width: 400px;
+     display: flex;
+     padding: 1em;
+     justify-content: space-between;
+     justify-self: stretch;
+
+  }
