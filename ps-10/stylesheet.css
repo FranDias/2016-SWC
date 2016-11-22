@@ -1,0 +1,81 @@
+body {
+  width: 400px;
+  margin: 0 auto;
+  background-color: #E5E5E5;
+  padding: 50px 500px 0px 0px;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 8pt;
+}
+
+
+div {
+    float: left;
+    padding: 10%;
+}
+
+h1 {
+  font-family: 'Karma', serif;
+  font-size: 18pt;
+  text-align: left;
+  width: 550px;
+  padding: 50px 500px 0px 50px;
+  line-height: 140%;
+
+
+}
+
+h2 {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 8pt;
+  text-align: left;
+  width: 400px;
+  padding: 0px 0px 0px 50px;
+
+}
+
+.axis path,
+.axis line {
+  fill: none;
+  stroke: #303030;
+  shape-rendering: crispEdges;
+}
+
+.bar {
+  fill: #B2323F;
+}
+
+.bar:hover {
+  fill: #873137;
+}
+
+.x.axis path {
+  display: none;
+}
+
+.d3-tip {
+  line-height: 1;
+  font-weight: bold;
+  padding: 12px;
+  background: rgba(255, 255, 255, .8);
+  color: white;
+  border-radius: 2px;
+}
+
+a:link {
+    color: #B2323F;
+    font-weight: bold;
+    text-decoration: none;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 8pt;
+
+}
+a:visited {
+        text-decoration: none;
+color: #B2323F;
+
+}
+a:hover {
+text-decoration: underline;
+color: #873137;
+
+}
