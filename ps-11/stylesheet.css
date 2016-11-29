@@ -1,0 +1,55 @@
+body {
+  background-color: #EFEFEF;
+  padding: 50px 0px 0px 0px;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 10pt;
+  text-align: left;
+}
+
+
+div {
+    float: left;
+    padding: 10%;
+}
+
+h1 {
+  font-family: 'Karma', serif;
+  font-size: 20pt;
+  color: #89A1BF;
+  text-align: left;
+  padding: 0px 0px 0px 550px;
+    line-height: 50%;
+}
+
+h2 {
+  font-family: 'Karma', serif;
+  font-size: 20pt;
+  color: #726DA8;
+  text-align: left;
+  padding: 0px 0px 0px 550px;
+  line-height: 25%;
+
+}
+
+
+/* Style for Custom Tooltip */
+div.tooltip {
+  position: absolute;
+  text-align: center;
+  width: 85px;
+  height: 14px;
+  padding: 1px;
+  font: 10px sans-serif;
+  background: white;
+  border: 0px;
+  border-radius: 0px;
+  pointer-events: none;
+}
+
+/* Legend Font Style */
+body {
+  font: 11px sans-serif;
+}
+
+
+}
