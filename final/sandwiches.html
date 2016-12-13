@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>kate terrado: sandwiches</title>
+    <link href="https://fonts.googleapis.com/css?family=Karma:600|Open+Sans" rel="stylesheet">
+    <link rel="stylesheet" href="sandwiches.css" type="text/css">
+    <script type="text/javascript" src="sandwiches.js" defer></script>
+    <script type="text/javascript" src="angular.min.js"></script>
+    <script type="text/javascript" src="angular-animate.min.js"></script>
+    <script type="text/javascript" src="angular-aria.min.js"></script>
+    <script type="text/javascript" src="angular-material.min.js"></script>
+    <script type="text/javascript" src="lodash.js"></script>
+
+</head>
+
+
+  <body>
+
+    <div ng-app='angularDemo' ng-cloak>
+  <md-toolbar layout-padding>
+    <h2>All of humankind has one thing in common: the sandwich. I believe that all anyone really wants in this life is to sit in peace and eat a sandwich. <br>—Liz Lemon</h2>
+  </md-toolbar>
+  <div layout="row" ng-controller="angularController as ctrl">
+    <div flex="20" class="sidebar" layout-padding style="overflow-y: auto; height:600px">
+      <div ng-repeat="filter in Filters">
+        <h3 class="sort">{{filter.name}}</h3>
+        <ol class="sortoptions" style="list-style-type:none">
+          <li ng-repeat="option in filter.options">
+            <input type="checkbox" ng-model="option.IsIncluded" ng-checked="option.IsIncluded"> {{option.value}}
+            <span>({{option.count}})</span>
+          </li>
+        </ol>
+      </div>
+      
+   </div>
+    <div flex="50" layout="row">
+      <md-card flex ng-repeat="fruit in Fruits | dynamicFilter:Filters:this" class="sandwich">
+        {{fruit.name}}
+      </md-card>
+    </div>
+  </div>
+</div>
+
+  </body>
+
+
+</html>
